@@ -1,0 +1,26 @@
+PODS:
+  - ArcGIS-Runtime-SDK-iOS (100.1.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Hyphenate (3.3.4.1)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-SDK-iOS (~> 100.1)
+  - ChameleonFramework
+  - Hyphenate
+  - JSQMessagesViewController
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-iOS: 9b9c2478c974ef0b704b853948a19227f3124ceb
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Hyphenate: dc7709bf976ff7f23565d0902bec2d3f236ed67e
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+
+PODFILE CHECKSUM: b605d0b745468350180c77bea8955c746d767408
+
+COCOAPODS: 1.2.0.beta.1

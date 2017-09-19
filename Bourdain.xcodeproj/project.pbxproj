@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1171C83C1F6E3C2F000AE836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C83B1F6E3C2F000AE836 /* AppDelegate.swift */; };
+		1171C83E1F6E3C2F000AE836 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C83D1F6E3C2F000AE836 /* MainViewController.swift */; };
+		1171C8411F6E3C2F000AE836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171C83F1F6E3C2F000AE836 /* Main.storyboard */; };
+		1171C8441F6E3C2F000AE836 /* Bourdain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1171C8421F6E3C2F000AE836 /* Bourdain.xcdatamodeld */; };
+		1171C8461F6E3C2F000AE836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171C8451F6E3C2F000AE836 /* Assets.xcassets */; };
+		1171C8491F6E3C2F000AE836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171C8471F6E3C2F000AE836 /* LaunchScreen.storyboard */; };
+		1171C8541F6E3C2F000AE836 /* BourdainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C8531F6E3C2F000AE836 /* BourdainTests.swift */; };
+		1171C85F1F6E3C2F000AE836 /* BourdainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C85E1F6E3C2F000AE836 /* BourdainUITests.swift */; };
+		1171C86D1F6E628B000AE836 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C86C1F6E628B000AE836 /* Extensions.swift */; };
+		1171C86F1F6E71E9000AE836 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171C86E1F6E71E9000AE836 /* ChatViewController.swift */; };
+		508C8732DD91647DEE3BD139 /* Pods_BourdainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E6A9F3E7EADF1D15A88A17 /* Pods_BourdainTests.framework */; };
+		820628A1CF837FCC9B491911 /* Pods_Bourdain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284AFD72FB9C837D092C2130 /* Pods_Bourdain.framework */; };
+		F2AF80EB44D1C745ED771F0C /* Pods_BourdainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151856DB6A5AA936EA16982 /* Pods_BourdainUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1171C8501F6E3C2F000AE836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1171C8301F6E3C2F000AE836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1171C8371F6E3C2F000AE836;
+			remoteInfo = Bourdain;
+		};
+		1171C85B1F6E3C2F000AE836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1171C8301F6E3C2F000AE836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1171C8371F6E3C2F000AE836;
+			remoteInfo = Bourdain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1171C8381F6E3C2F000AE836 /* Bourdain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bourdain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1171C83B1F6E3C2F000AE836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1171C83D1F6E3C2F000AE836 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1171C8401F6E3C2F000AE836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1171C8431F6E3C2F000AE836 /* Bourdain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bourdain.xcdatamodel; sourceTree = "<group>"; };
+		1171C8451F6E3C2F000AE836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1171C8481F6E3C2F000AE836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1171C84A1F6E3C2F000AE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171C84F1F6E3C2F000AE836 /* BourdainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BourdainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1171C8531F6E3C2F000AE836 /* BourdainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BourdainTests.swift; sourceTree = "<group>"; };
+		1171C8551F6E3C2F000AE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171C85A1F6E3C2F000AE836 /* BourdainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BourdainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1171C85E1F6E3C2F000AE836 /* BourdainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BourdainUITests.swift; sourceTree = "<group>"; };
+		1171C8601F6E3C2F000AE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171C86C1F6E628B000AE836 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1171C86E1F6E71E9000AE836 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18E6A9F3E7EADF1D15A88A17 /* Pods_BourdainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BourdainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		284AFD72FB9C837D092C2130 /* Pods_Bourdain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bourdain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4378CDA964A28416CAF5985A /* Pods-BourdainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BourdainTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BourdainTests/Pods-BourdainTests.release.xcconfig"; sourceTree = "<group>"; };
+		5151856DB6A5AA936EA16982 /* Pods_BourdainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BourdainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675E1E57481CD6BB733F0C5F /* Pods-Bourdain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bourdain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bourdain/Pods-Bourdain.debug.xcconfig"; sourceTree = "<group>"; };
+		D694F372650FF82C32A35E5D /* Pods-BourdainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BourdainUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BourdainUITests/Pods-BourdainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06D9B30360D567634C4496B /* Pods-BourdainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BourdainTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BourdainTests/Pods-BourdainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F08C03BF5ECDD2051DDE2763 /* Pods-Bourdain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bourdain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bourdain/Pods-Bourdain.release.xcconfig"; sourceTree = "<group>"; };
+		F50A68BE336E66742ADE32F0 /* Pods-BourdainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BourdainUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BourdainUITests/Pods-BourdainUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1171C8351F6E3C2F000AE836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820628A1CF837FCC9B491911 /* Pods_Bourdain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C84C1F6E3C2F000AE836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508C8732DD91647DEE3BD139 /* Pods_BourdainTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C8571F6E3C2F000AE836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AF80EB44D1C745ED771F0C /* Pods_BourdainUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1171C82F1F6E3C2F000AE836 = {
+			isa = PBXGroup;
+			children = (
+				1171C83A1F6E3C2F000AE836 /* Bourdain */,
+				1171C8521F6E3C2F000AE836 /* BourdainTests */,
+				1171C85D1F6E3C2F000AE836 /* BourdainUITests */,
+				1171C8391F6E3C2F000AE836 /* Products */,
+				E08EBA4F6C071288911EC5FF /* Pods */,
+				B8BD8DCADE9079DDFDEAF8D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1171C8391F6E3C2F000AE836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1171C8381F6E3C2F000AE836 /* Bourdain.app */,
+				1171C84F1F6E3C2F000AE836 /* BourdainTests.xctest */,
+				1171C85A1F6E3C2F000AE836 /* BourdainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1171C83A1F6E3C2F000AE836 /* Bourdain */ = {
+			isa = PBXGroup;
+			children = (
+				1171C83B1F6E3C2F000AE836 /* AppDelegate.swift */,
+				1171C83D1F6E3C2F000AE836 /* MainViewController.swift */,
+				1171C86E1F6E71E9000AE836 /* ChatViewController.swift */,
+				1171C83F1F6E3C2F000AE836 /* Main.storyboard */,
+				1171C86C1F6E628B000AE836 /* Extensions.swift */,
+				1171C8451F6E3C2F000AE836 /* Assets.xcassets */,
+				1171C8471F6E3C2F000AE836 /* LaunchScreen.storyboard */,
+				1171C84A1F6E3C2F000AE836 /* Info.plist */,
+				1171C8421F6E3C2F000AE836 /* Bourdain.xcdatamodeld */,
+			);
+			path = Bourdain;
+			sourceTree = "<group>";
+		};
+		1171C8521F6E3C2F000AE836 /* BourdainTests */ = {
+			isa = PBXGroup;
+			children = (
+				1171C8531F6E3C2F000AE836 /* BourdainTests.swift */,
+				1171C8551F6E3C2F000AE836 /* Info.plist */,
+			);
+			path = BourdainTests;
+			sourceTree = "<group>";
+		};
+		1171C85D1F6E3C2F000AE836 /* BourdainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1171C85E1F6E3C2F000AE836 /* BourdainUITests.swift */,
+				1171C8601F6E3C2F000AE836 /* Info.plist */,
+			);
+			path = BourdainUITests;
+			sourceTree = "<group>";
+		};
+		B8BD8DCADE9079DDFDEAF8D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284AFD72FB9C837D092C2130 /* Pods_Bourdain.framework */,
+				18E6A9F3E7EADF1D15A88A17 /* Pods_BourdainTests.framework */,
+				5151856DB6A5AA936EA16982 /* Pods_BourdainUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E08EBA4F6C071288911EC5FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				675E1E57481CD6BB733F0C5F /* Pods-Bourdain.debug.xcconfig */,
+				F08C03BF5ECDD2051DDE2763 /* Pods-Bourdain.release.xcconfig */,
+				E06D9B30360D567634C4496B /* Pods-BourdainTests.debug.xcconfig */,
+				4378CDA964A28416CAF5985A /* Pods-BourdainTests.release.xcconfig */,
+				D694F372650FF82C32A35E5D /* Pods-BourdainUITests.debug.xcconfig */,
+				F50A68BE336E66742ADE32F0 /* Pods-BourdainUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1171C8371F6E3C2F000AE836 /* Bourdain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1171C8631F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "Bourdain" */;
+			buildPhases = (
+				985FFBAC1E7B95EC61A22D1D /* [CP] Check Pods Manifest.lock */,
+				1171C8341F6E3C2F000AE836 /* Sources */,
+				1171C8351F6E3C2F000AE836 /* Frameworks */,
+				1171C8361F6E3C2F000AE836 /* Resources */,
+				B56E91DFB8CBA6B5EC59F4A5 /* [CP] Embed Pods Frameworks */,
+				39C3260AE5DAF614EAC38943 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bourdain;
+			productName = Bourdain;
+			productReference = 1171C8381F6E3C2F000AE836 /* Bourdain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1171C84E1F6E3C2F000AE836 /* BourdainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1171C8661F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "BourdainTests" */;
+			buildPhases = (
+				F10AED8E280BB792334E7467 /* [CP] Check Pods Manifest.lock */,
+				1171C84B1F6E3C2F000AE836 /* Sources */,
+				1171C84C1F6E3C2F000AE836 /* Frameworks */,
+				1171C84D1F6E3C2F000AE836 /* Resources */,
+				6A074143B1C18635079FB329 /* [CP] Embed Pods Frameworks */,
+				3399A730CB5882A0C7569FC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1171C8511F6E3C2F000AE836 /* PBXTargetDependency */,
+			);
+			name = BourdainTests;
+			productName = BourdainTests;
+			productReference = 1171C84F1F6E3C2F000AE836 /* BourdainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1171C8591F6E3C2F000AE836 /* BourdainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1171C8691F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "BourdainUITests" */;
+			buildPhases = (
+				83816CAEAD22DE666DE712D1 /* [CP] Check Pods Manifest.lock */,
+				1171C8561F6E3C2F000AE836 /* Sources */,
+				1171C8571F6E3C2F000AE836 /* Frameworks */,
+				1171C8581F6E3C2F000AE836 /* Resources */,
+				D0516C6A6669658889937237 /* [CP] Embed Pods Frameworks */,
+				CEE24C54AD022DB7B7EFF596 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1171C85C1F6E3C2F000AE836 /* PBXTargetDependency */,
+			);
+			name = BourdainUITests;
+			productName = BourdainUITests;
+			productReference = 1171C85A1F6E3C2F000AE836 /* BourdainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1171C8301F6E3C2F000AE836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Karen Ho";
+				TargetAttributes = {
+					1171C8371F6E3C2F000AE836 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J288MX8BX;
+						ProvisioningStyle = Automatic;
+					};
+					1171C84E1F6E3C2F000AE836 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J288MX8BX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1171C8371F6E3C2F000AE836;
+					};
+					1171C8591F6E3C2F000AE836 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J288MX8BX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1171C8371F6E3C2F000AE836;
+					};
+				};
+			};
+			buildConfigurationList = 1171C8331F6E3C2F000AE836 /* Build configuration list for PBXProject "Bourdain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1171C82F1F6E3C2F000AE836;
+			productRefGroup = 1171C8391F6E3C2F000AE836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1171C8371F6E3C2F000AE836 /* Bourdain */,
+				1171C84E1F6E3C2F000AE836 /* BourdainTests */,
+				1171C8591F6E3C2F000AE836 /* BourdainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1171C8361F6E3C2F000AE836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171C8491F6E3C2F000AE836 /* LaunchScreen.storyboard in Resources */,
+				1171C8461F6E3C2F000AE836 /* Assets.xcassets in Resources */,
+				1171C8411F6E3C2F000AE836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C84D1F6E3C2F000AE836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C8581F6E3C2F000AE836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3399A730CB5882A0C7569FC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BourdainTests/Pods-BourdainTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C3260AE5DAF614EAC38943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bourdain/Pods-Bourdain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A074143B1C18635079FB329 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BourdainTests/Pods-BourdainTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83816CAEAD22DE666DE712D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		985FFBAC1E7B95EC61A22D1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B56E91DFB8CBA6B5EC59F4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bourdain/Pods-Bourdain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE24C54AD022DB7B7EFF596 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BourdainUITests/Pods-BourdainUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0516C6A6669658889937237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BourdainUITests/Pods-BourdainUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10AED8E280BB792334E7467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1171C8341F6E3C2F000AE836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171C83E1F6E3C2F000AE836 /* MainViewController.swift in Sources */,
+				1171C83C1F6E3C2F000AE836 /* AppDelegate.swift in Sources */,
+				1171C8441F6E3C2F000AE836 /* Bourdain.xcdatamodeld in Sources */,
+				1171C86F1F6E71E9000AE836 /* ChatViewController.swift in Sources */,
+				1171C86D1F6E628B000AE836 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C84B1F6E3C2F000AE836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171C8541F6E3C2F000AE836 /* BourdainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1171C8561F6E3C2F000AE836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1171C85F1F6E3C2F000AE836 /* BourdainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1171C8511F6E3C2F000AE836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1171C8371F6E3C2F000AE836 /* Bourdain */;
+			targetProxy = 1171C8501F6E3C2F000AE836 /* PBXContainerItemProxy */;
+		};
+		1171C85C1F6E3C2F000AE836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1171C8371F6E3C2F000AE836 /* Bourdain */;
+			targetProxy = 1171C85B1F6E3C2F000AE836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1171C83F1F6E3C2F000AE836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171C8401F6E3C2F000AE836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1171C8471F6E3C2F000AE836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1171C8481F6E3C2F000AE836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1171C8611F6E3C2F000AE836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1171C8621F6E3C2F000AE836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1171C8641F6E3C2F000AE836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675E1E57481CD6BB733F0C5F /* Pods-Bourdain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = Bourdain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.Bourdain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1171C8651F6E3C2F000AE836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08C03BF5ECDD2051DDE2763 /* Pods-Bourdain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = Bourdain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.Bourdain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1171C8671F6E3C2F000AE836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06D9B30360D567634C4496B /* Pods-BourdainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = BourdainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.BourdainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bourdain.app/Bourdain";
+			};
+			name = Debug;
+		};
+		1171C8681F6E3C2F000AE836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4378CDA964A28416CAF5985A /* Pods-BourdainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = BourdainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.BourdainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bourdain.app/Bourdain";
+			};
+			name = Release;
+		};
+		1171C86A1F6E3C2F000AE836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D694F372650FF82C32A35E5D /* Pods-BourdainUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = BourdainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.BourdainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bourdain;
+			};
+			name = Debug;
+		};
+		1171C86B1F6E3C2F000AE836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50A68BE336E66742ADE32F0 /* Pods-BourdainUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2J288MX8BX;
+				INFOPLIST_FILE = BourdainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamteam.BourdainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bourdain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1171C8331F6E3C2F000AE836 /* Build configuration list for PBXProject "Bourdain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171C8611F6E3C2F000AE836 /* Debug */,
+				1171C8621F6E3C2F000AE836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1171C8631F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "Bourdain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171C8641F6E3C2F000AE836 /* Debug */,
+				1171C8651F6E3C2F000AE836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1171C8661F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "BourdainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171C8671F6E3C2F000AE836 /* Debug */,
+				1171C8681F6E3C2F000AE836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1171C8691F6E3C2F000AE836 /* Build configuration list for PBXNativeTarget "BourdainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1171C86A1F6E3C2F000AE836 /* Debug */,
+				1171C86B1F6E3C2F000AE836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1171C8421F6E3C2F000AE836 /* Bourdain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1171C8431F6E3C2F000AE836 /* Bourdain.xcdatamodel */,
+			);
+			currentVersion = 1171C8431F6E3C2F000AE836 /* Bourdain.xcdatamodel */;
+			path = Bourdain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1171C8301F6E3C2F000AE836 /* Project object */;
+}
